@@ -1,0 +1,51 @@
+🔢 1. Biến và kiểu dữ liệu
+
+Nhập tên, tuổi và in ra câu chào.
+Tính diện tích hình tròn với bán kính nhập từ bàn phím.
+Chuyển đổi nhiệt độ từ độ C sang độ F.
+
+
+🔁 2. Câu lệnh điều kiện (if, else)
+
+Kiểm tra số nhập vào là chẵn hay lẻ.
+Kiểm tra số nguyên tố.
+Xếp loại học lực dựa trên điểm trung bình.
+Kiểm tra năm nhuận.
+
+
+🔄 3. Vòng lặp (for, while, foreach)
+
+In bảng cửu chương từ 2 đến 9.
+Tính tổng các số chia hết cho 3 từ 1 đến n.
+Tính giai thừa của một số.
+Duyệt mảng và in các phần tử chẵn.
+
+
+📦 4. Mảng và danh sách
+
+Nhập mảng số nguyên, tính tổng và trung bình.
+Tìm phần tử lớn nhất và nhỏ nhất trong mảng.
+Sắp xếp mảng tăng dần.
+Đếm số lần xuất hiện của một phần tử.
+
+
+📚 5. Hàm (Function)
+
+Viết hàm tính tổng, hiệu, tích, thương.
+Viết hàm kiểm tra số nguyên tố.
+Viết hàm đảo ngược chuỗi.
+Viết hàm tính điểm trung bình và xếp loại.
+
+
+🧱 6. Lập trình hướng đối tượng (OOP)
+
+Tạo class SinhVien với thuộc tính: tên, tuổi, điểm.
+Viết phương thức tính điểm trung bình và xếp loại.
+Tạo danh sách sinh viên và in ra sinh viên có điểm cao nhất.
+
+
+📁 7. File và xử lý dữ liệu
+
+Ghi dữ liệu vào file .txt.
+Đọc dữ liệu từ file và in ra màn hình.
+Đếm số dòng trong file.
