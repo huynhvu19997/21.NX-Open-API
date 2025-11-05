@@ -3,3 +3,5 @@ https://community.sw.siemens.com/s/question/0D54O00008DScJ9SAL/custom-menuscript
 https://docs.sw.siemens.com/en-US/documents/209349590/PL20190701134252622?start=20&filters%5Bcategories.all%5D%5B0%5D=NX%20Open
 
 https://vietjack.com/bai-tap-csharp/bai-tap-mang-trong-csharp.jsp
+
+https://docs.sw.siemens.com/en-US/doc/209349590/PL20231101866122454.custom_api.nxopen_net?audience=external
