@@ -7,3 +7,5 @@ https://vietjack.com/bai-tap-csharp/bai-tap-mang-trong-csharp.jsp
 https://docs.sw.siemens.com/en-US/doc/209349590/PL20231101866122454.custom_api.nxopen_net?audience=external
 
 https://community.sw.siemens.com/s/feed/0D54O00007oICmdSAG
+
+https://community.sw.siemens.com/s/question/0D54O00006BujA7SAJ/work-with-python-and-nx-open
