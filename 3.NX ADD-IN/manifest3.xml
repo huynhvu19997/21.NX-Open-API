@@ -1,0 +1,38 @@
+<NXOpen.NetPlugin>
+  <Assembly>MyNXAddin.dll</Assembly>
+  <AutoLoad>True</AutoLoad>
+
+  <Ribbon>
+    <Tab>
+      <Text>Doosan Tools</Text>          <!-- Tên tab -->
+      <Icon>doosan_tab.ico</Icon>        <!-- Icon cho tab -->
+
+      <Group>
+        <Text>Design Utilities</Text>    <!-- Tên group -->
+        <Icon>design_group.ico</Icon>
+
+        <Button>
+          <Text>Quick Export</Text>
+          <Icon>export.ico</Icon>
+          <Method>QuickExport</Method>
+        </Button>
+        <Button>
+          <Text>Batch Rename</Text>
+          <Icon>rename.ico</Icon>
+          <Method>BatchRename</Method>
+        </Button>
+      </Group>
+
+      <Group>
+        <Text>Analysis</Text>
+        <Icon>analysis_group.ico</Icon>
+
+        <Button>
+          <Text>Check Thickness</Text>
+          <Icon>thickness.ico</Icon>
+          <Method>CheckThickness</Method>
+        </Button>
+      </Group>
+    </Tab>
+  </Ribbon>
+</NXOpen.NetPlugin>
