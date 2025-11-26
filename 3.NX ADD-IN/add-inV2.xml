@@ -1,0 +1,46 @@
+<OpenToolbar>
+  <assembly name="MyNXAddin.dll"/>
+  <tab name="Custom ADDIN" environments="all">
+    <group name="Fillet Tools" environments="all">
+      <button
+        name="FilletBtn"
+        text="Bo cạnh"
+        OnCommand="NXAddinEntry.ShowFilletForm"
+        image="fillet_icon.png"
+        environments="all"
+      />
+      <button
+        name="ChamferBtn"
+        text="Vát cạnh"
+        OnCommand="NXAddinEntry.ShowChamferForm"
+        image="chamfer_icon.png"
+        environments="all"
+      />
+    </group>
+    <group name="Drawing Tools" environments="all">
+      <button
+        name="DrawingBtn"
+        text="Xuất bản vẽ"
+        OnCommand="NXAddinEntry.ShowDrawingForm"
+        image="drawing_icon.png"
+        environments="all"
+      />
+      <button
+        name="ExportPDFBtn"
+        text="Xuất PDF"
+        OnCommand="NXAddinEntry.ExportPDF"
+        image="pdf_icon.png"
+        environments="all"
+      />
+    </group>
+    <group name="Doosan CAD" environments="all">
+      <button
+        name="AboutBtn"
+        text="Thông tin phần mềm"
+        OnCommand="NXAddinEntry.ShowAbout"
+        image="doosan_icon.png"
+        environments="all"
+      />
+    </group>
+  </tab>
+</OpenToolbar>
