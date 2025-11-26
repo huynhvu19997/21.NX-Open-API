@@ -1,0 +1,34 @@
+1. Tên file manifest
+Manifest kiểu OpenToolbar (NX Ribbon Add-in):
+
+Thông thường: Tên file nên là:
+NXOpenToolbar.xml
+  hoặc bạn có thể đặt theo tên dự án, ví dụ: DoosanRibbon.xml
+  Đừng sử dụng kí tự đặc biệt, dấu cách hoặc tiếng Việt có dấu trong tên file.
+  Đuôi file luôn phải là .xml (chữ thường).
+  Nếu có nhiều Add-in, mỗi Add-in có file manifest riêng với tên không trùng nhau.
+  Manifest kiểu tiêu chuẩn NX Open .Net Plugin:
+
+Thường đặt trùng tên assembly (tức là DLL), ví dụ:
+  DLL: MyNXAddin.dll
+  Manifest: MyNXAddin.xml
+Điều này giúp NX tự nhận diện và liên kết manifest với DLL tương ứng.
+
+----------------------------------------------------------------------------------------
+
+2. Vị trí lưu file manifest và DLL
+Đặt file manifest và DLL ở một trong các thư mục sau:
+Thư mục startup trong NX cài đặt:
+Ví dụ: C:\Program Files\Siemens\NX\NXBIN\startup\
+Hoặc thư mục bạn chỉ định qua biến môi trường:
+UGII_USER_DIR
+UGII_CUSTOM_DIRECTORY
+Đảm bảo mọi file icon cũng nằm cùng vị trí hoặc chỉ rõ đường dẫn trong manifest.
+----------------------------------------------------------------------------------------
+
+3. Các lưu ý khác
+Không dùng dấu cách hoặc ký tự lạ trong tên file manifest.
+Không trùng tên file với Add-in khác để tránh xung đột khi NX load plugin.
+Nếu là manifest cho Ribbon (OpenToolbar), tên file có thể tự do hơn, nhưng vẫn nên đặt ngắn gọn, dễ nhớ, mang tính mô tả dự án/add-in.
+
+-----------------------------------------------------------------------------------------
