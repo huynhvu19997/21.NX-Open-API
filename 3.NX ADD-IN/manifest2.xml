@@ -1,0 +1,11 @@
+<NXOpen.NetPlugin>
+  <Assembly>MyNXAddin.dll</Assembly>
+  <Class>MyNXAddin</Class>
+  <Method>Main</Method>
+  <AutoLoad>True</AutoLoad>
+  <Menu>
+    <Location>Tools</Location>
+    <Text>My Addin</Text>
+    <Icon>myicon.ico</Icon>
+  </Menu>
+</NXOpen.NetPlugin>
